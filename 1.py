@@ -1,4 +1,4 @@
-import requests 
+import requests
 username = "razak8"  #строка с вводом имени пользователя GitHub
 response = requests.get(f'https://api.github.com/users/{username}') #данные из запроса к API GitHub
 
